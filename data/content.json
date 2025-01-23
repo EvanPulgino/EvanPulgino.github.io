@@ -26,8 +26,8 @@
 		"Java",
 		"Python",
 		"PHP",
-		"Javascript",
-		"Typescript",
+		"JavaScript",
+		"TypeScript",
 		"React",
 		"Django",
 		"AWS",
@@ -56,7 +56,7 @@
 			"location": "Seattle, WA",
 			"dates": "APRIL 2017 - JULY 2020<br />JUNE 2021 - AUGUST 2022",
 			"accomplishments": [
-				"Led development of framwork to port editorial content from Amazon Book Club website to a new upgraded UX",
+				"Led development of framework to port editorial content from Amazon Book Club website to a new upgraded UX",
 				"Led development of Android app that allowed customers to use Prime benefits in Whole Foods stores",
 				"Helped develop Fire TV Alexa skill that helped customers use voice queries to search for content"
 			]
