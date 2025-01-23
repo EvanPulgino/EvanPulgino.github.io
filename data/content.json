@@ -1,15 +1,15 @@
 {
 	"name": {
 		"first": "Evan",
-		"last": "Pulgino",
+		"last": "Pulgino"
 	},
 	"location": {
 		"city": "Seattle",
-		"state": "WA",
+		"state": "WA"
 	},
 	"contact": {
 		"phone_number": "412-512-4723",
-		"email_address": "evan.pulgino@pm.me",
+		"email_address": "evan.pulgino@pm.me"
 	},
 	"bio": "Some bio text here",
 	"skills": [
@@ -25,7 +25,7 @@
 		"Postgres",
 		"Kotlin",
 		"Angular",
-		"Perl",
+		"Perl"
 	],
 	"experience": [
 		{
@@ -37,7 +37,7 @@
 			"accomplishments": [
 				"Designed and built a WYSIWYG tool for clinicians to build complex patient intake forms using logical branching",
 				"Designed and built a streamlined version of company’s app on the web that allowed patients to quickly fill out intake forms and schedule video visits with clinicians",
-				"Spearheaded integration of Auth0 MFA integration for patient facing website",
+				"Spearheaded integration of Auth0 MFA integration for patient facing website"
 			]
 		},
 		{
@@ -47,8 +47,8 @@
 			"start": "June 2021",
 			"end": "August 2022",
 			"accomplishments": [
-				"Helped develop Fire TV Alexa skill that helped customers use voice queries to search for content",
-			],
+				"Helped develop Fire TV Alexa skill that helped customers use voice queries to search for content"
+			]
 		},
 	],
 	"education": [
@@ -56,13 +56,13 @@
 			"institution": "University of Pittsburgh",
 			"location": "Pittsburgh, PA",
 			"degree": "MS in Information Science",
-			"graduated": "2012",
+			"graduated": "2012"
 		},
 		{
 			"institution": "Grove City College",
 			"location": "Grove City, PA",
 			"degree": "BS in Accounting",
-			"graduated": "2003",
-		},
-	],
+			"graduated": "2003"
+		}
+	]
 }
