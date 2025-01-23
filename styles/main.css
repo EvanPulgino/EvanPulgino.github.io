@@ -43,6 +43,12 @@ footer {
 	width: 30px;
 }
 
+#pdf-icon {
+	background-image: url('../assets/icons8-pdf-30.png');
+	height: 30px;
+	width: 30px;
+}
+
 #phone-icon {
 	background-image: url('../assets/icons8-phone-30.png');
 	height: 30px;
