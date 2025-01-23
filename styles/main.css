@@ -43,8 +43,9 @@ section {
 }
 
 #profile {
-	height: 200px;
-	flex-direction: row;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 #profile-pic {
@@ -99,8 +100,8 @@ section {
 
 .card {
 	position: relative;
-	width: 500px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	transform-style: preserve-3d;
 	transition: 2s ease;
 	border-radius: 5%;
