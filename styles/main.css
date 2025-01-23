@@ -24,13 +24,13 @@ section {
 	padding-top: 10px;
 }
 
-#experience-container {
+/*.experience-container {
 	display: flex;
 	flex-flow: row wrap;
 	gap: 25px;
 	justify-content: center;
 }
-
+*/
 #email-icon {
 	background-image: url('../assets/icons8-email-30.png');
 	height: 30px;
@@ -76,7 +76,7 @@ section {
 #resume {
 	display: flex;
 	flex-direction: column;
-	gap: 25px;
+	gap: 50px;
 }
 
 .accomplishments {
@@ -141,15 +141,28 @@ section {
 	justify-content: center;
 }
 
+.degree {
+	font-style: italic;
+}
+
+.institution {
+	font-size: x-large;
+	font-weight: 700;
+}
+
 .organization {
 	font-size: x-large;
 	font-weight: 700;
 }
 
 .section-container {
-	display: grid;
+	/*display: grid;
 	grid-template-columns: auto auto;
-	column-gap: 50px;
+	column-gap: 50px;*/
+	display: flex;
+	flex-flow: row wrap;
+	gap: 25px;
+	justify-content: center;
 }
 
 .title {

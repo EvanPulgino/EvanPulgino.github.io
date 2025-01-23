@@ -9,9 +9,9 @@ function buildPronounsString(pronouns) {
 function getEducationElement(education) {
 	return `<div class="education">
 		<div class="institution">${education.institution}</div>
+		<div class="degree">${education.degree}</div>
 		<div class="location">${education.location}</div>
 		<div class="graduated">${education.graduated}</div>
-		<div class="degree">${education.degree}</div>
 	</div>`;
 }
 
