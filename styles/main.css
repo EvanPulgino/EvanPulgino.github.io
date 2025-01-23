@@ -38,7 +38,15 @@ section {
 }
 
 #personal-info {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
 	padding-left: 20px;
+}
+
+#name {
+	font-size: xx-large;
+	font-weight: 700;
 }
 
 #resume {
@@ -50,4 +58,5 @@ section {
 .contact-item {
 	display: flex;
 	flex-direction: row;
+	line-height: 30px;
 }

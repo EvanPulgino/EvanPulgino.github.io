@@ -33,6 +33,7 @@ function populateContent(content) {
 
 	// Profile
 	document.getElementById('name').textContent = `${content.name.first} ${content.name.last}`;
+	document.getElementById('title').textContent = `${content.title}`;
 	document.getElementById('location').textContent = `${content.location.city}, ${content.location.state}`;
 	document.getElementById('phone-number').textContent = `${content.contact.phone_number}`;
 	document.getElementById('email-address').textContent = `${content.contact.email_address}`;
