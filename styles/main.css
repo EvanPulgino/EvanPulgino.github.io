@@ -8,11 +8,6 @@ section {
 	justify-content: center;
 }
 
-#contact-item {
-	display: flex;
-	flex-direction: row;
-}
-
 #email-icon {
 	background-image: url('../assets/icons8-email-30.png');
 	height: 30px;
@@ -50,4 +45,9 @@ section {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
+}
+
+.contact-item {
+	display: flex;
+	flex-direction: row;
 }
