@@ -39,6 +39,15 @@ function getExperienceElement(experience) {
 	</div>`;
 }
 
+function getProjectElement(project) {
+	return `<div class="project">
+		<div class="name">${project.name}</div>
+		<div class="link"><a href="${project.link}" target="_blank" rel="noreferrer noopener">Link</a></div>
+		<div class="repo"><a href="${project.repo}" target="_blank" rel="noreferrer noopener">GitHub Repo</a></div>
+		<div class="description">${project.description}</div>
+	</div>`;
+}
+
 function populateContent(content) {
 
 	// Profile
@@ -75,7 +84,12 @@ function populateContent(content) {
 	// Education
 	Object.values(content.education).forEach(education => {
 		document.getElementById('education-container').insertAdjacentHTML('beforeend', getEducationElement(education));
-	})
+	});
+
+	// Projects
+	Object.values(content.projects).forEach(project => {
+		document.getElementById('projects-container').insertAdjacentHTML('beforeend', getProjectElement(project));
+	});
 }
 
 function populateDataOnLoad() {
