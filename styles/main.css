@@ -86,7 +86,7 @@ section {
 	transform-style: preserve-3d;
 	transition: 1s ease;
 	border-radius: 5%;
-    box-shadow: 3px 3px 3px #000000a0;
+    box-shadow: 3px 3px 3px 3px #000000a0;
 }
 
 .experience-card:hover {
@@ -94,20 +94,21 @@ section {
 }
 
 .front {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	backface-visibility: hidden;
 	z-index: 1;
 }
 
-.back {
-	transform: rotateY(180deg);
-}
-
-.front,
 .back {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	border-radius: 6px;
 	backface-visibility: hidden;
+	transform: rotateY(180deg);
 }
 
 .section-container {
