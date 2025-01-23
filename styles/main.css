@@ -24,13 +24,6 @@ section {
 	padding-top: 10px;
 }
 
-/*.experience-container {
-	display: flex;
-	flex-flow: row wrap;
-	gap: 25px;
-	justify-content: center;
-}
-*/
 #email-icon {
 	background-image: url('../assets/icons8-email-30.png');
 	height: 30px;
@@ -77,6 +70,12 @@ section {
 	display: flex;
 	flex-direction: column;
 	gap: 50px;
+}
+
+#skills-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 50px;
 }
 
 .accomplishments {
@@ -156,9 +155,6 @@ section {
 }
 
 .section-container {
-	/*display: grid;
-	grid-template-columns: auto auto;
-	column-gap: 50px;*/
 	display: flex;
 	flex-flow: row wrap;
 	gap: 25px;
