@@ -56,19 +56,19 @@ function populateContent(content) {
 
 	// Skills
 	Object.values(content.skills).forEach(skill => {
-		document.getElementById('skills').insertAdjacentHTML('beforeend', `
+		document.getElementById('skills-container').insertAdjacentHTML('beforeend', `
 			<div class="skill">${skill}</div>
 		`);
 	})
 
 	// Experience
 	Object.values(content.experience).forEach(experience => {
-		document.getElementById('experience').insertAdjacentHTML('beforeend', getExperienceElement(experience));
+		document.getElementById('experience-container').insertAdjacentHTML('beforeend', getExperienceElement(experience));
 	});
 
 	// Education
 	Object.values(content.education).forEach(education => {
-		document.getElementById('education').insertAdjacentHTML('beforeend', getEducationElement(education));
+		document.getElementById('education-container').insertAdjacentHTML('beforeend', getEducationElement(education));
 	})
 }
 
