@@ -3,6 +3,7 @@ function getSkillElement(skill) {
 }
 
 function populateContent(content) {
+	console.log(content);
 	// Profile
 	document.getElementById('name').textContent = `${content.name.first} ${content.name.last}`;
 	document.getElementById('location').textContent = `${content.location.city}, ${content.location.state}`;
