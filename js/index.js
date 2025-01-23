@@ -1,5 +1,8 @@
 function populateContent(content) {
 	document.getElementById('name').textContent = `${content.name.first} ${content.name.last}`;
+	document.getElementById('location').textContent = `${content.location.city}, ${content.location.state}`;
+	document.getElementById('phone-number').textContent = `${content.contact.phone-number}`;
+	document.getElementById('email-address').textContent = `${content.contact.email-address}`;
 }
 
 function populateDataOnLoad() {
