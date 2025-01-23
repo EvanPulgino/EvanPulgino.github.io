@@ -25,10 +25,6 @@ function getExperienceElement(experience) {
 	</div>`;
 }
 
-function getSkillElement(skill) {
-	return `<div class="skill">${skill}</div>`;
-}
-
 function populateContent(content) {
 
 	// Profile
@@ -42,11 +38,17 @@ function populateContent(content) {
 	`);
 
 	// Bio
-	document.getElementById('bio').textContent = `${content.bio}`;
+	Object.values(content.bio).forEach(bio => {
+		document.getElementById('bio').insertAdjacentHTML('beforeend', `
+			<div class="bio-sentence">${bio}</div>
+		`);
+	});
 
 	// Skills
 	Object.values(content.skills).forEach(skill => {
-		document.getElementById('skills').insertAdjacentHTML('beforeend', getSkillElement(skill));
+		document.getElementById('skills').insertAdjacentHTML('beforeend', `
+			<div class="skill">${skill}</div>
+		`);
 	})
 
 	// Experience
