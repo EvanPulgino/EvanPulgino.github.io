@@ -78,6 +78,12 @@ section {
 	gap: 5px;
 }
 
+.section-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 50px;
+}
+
 .section-title {
 	font-size: x-large;
 	font-weight: 700;
