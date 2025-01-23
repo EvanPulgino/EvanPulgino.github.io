@@ -147,7 +147,7 @@ section {
 .education {
 	border: 2px solid;
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: 20px;
 }
 
 .institution {
@@ -166,12 +166,13 @@ section {
 }
 
 .project {
-	border-radius: 5%;
+	border-radius: 5px;
     box-shadow: 3px 3px 3px #000000a0;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .section-container {
