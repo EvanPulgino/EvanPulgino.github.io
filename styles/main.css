@@ -79,6 +79,10 @@ section {
 	gap: 5px;
 }
 
+.experience-card-container {
+	display: inline-block;
+}
+
 .experience-card {
 	position: relative;
 	width: 300px;
@@ -90,7 +94,7 @@ section {
 }
 
 .experience-card:hover {
-	transform: rotateY(180deg);
+	transform: perspective(400px) rotateY(180deg);
 }
 
 .front {
@@ -100,7 +104,7 @@ section {
 	border-radius: 6px;
 	backface-visibility: hidden;
 	z-index: 1;
-	border: 5px dashed black;
+	border: 2px dashed black;
 }
 
 .back {
@@ -110,7 +114,7 @@ section {
 	border-radius: 6px;
 	backface-visibility: hidden;
 	transform: rotateY(180deg);
-	border: 5px dashed black;
+	border: 2px dashed black;
 }
 
 .section-container {

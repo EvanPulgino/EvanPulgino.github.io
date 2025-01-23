@@ -24,15 +24,17 @@ function getExperienceAccomplishmentElements(accomplishments) {
 }
 
 function getExperienceElement(experience) {
-	return `<div class="experience-card">
-		<div class="front">
-			<div class="organization">${experience.organization}</div>
-			<div class="title">${experience.title}</div>
-			<div class="location">${experience.location}</div>
-			<div class="daterange">${experience.start} - ${experience.end}</div>
-		</div>
-		<div class="back">
-			<div class="accomplishments">${getExperienceAccomplishmentElements(experience.accomplishments)}</div>
+	return `<div class="experience-card-container">
+		<div class="experience-card">
+			<div class="front">
+				<div class="organization">${experience.organization}</div>
+				<div class="title">${experience.title}</div>
+				<div class="location">${experience.location}</div>
+				<div class="daterange">${experience.start} - ${experience.end}</div>
+			</div>
+			<div class="back">
+				<div class="accomplishments">${getExperienceAccomplishmentElements(experience.accomplishments)}</div>
+			</div>
 		</div>
 	</div>`;
 }
