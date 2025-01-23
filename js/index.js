@@ -1,3 +1,7 @@
+function populateContent(content) {
+	document.getElementById('name').innerHtml = `${content.name.first} ${content.name.last}`;
+}
+
 function populateDataOnLoad() {
 	fetch("./data/content.json")
 		.then((result) => {
@@ -7,7 +11,7 @@ function populateDataOnLoad() {
 			return result.json();
 		})
 		.then((content) => {
-			console.log(content);
+			populateContent(content);
 		})
 		.catch((error) => {
 			console.error("Unable to fetch data:", error);
