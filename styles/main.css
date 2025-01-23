@@ -144,7 +144,18 @@ section {
 	font-style: italic;
 }
 
+.education {
+	border: 2px solid;
+	padding: 5px;
+	border-radius: 5px;
+}
+
 .institution {
+	font-size: x-large;
+	font-weight: 700;
+}
+
+.name {
 	font-size: x-large;
 	font-weight: 700;
 }
@@ -152,6 +163,15 @@ section {
 .organization {
 	font-size: x-large;
 	font-weight: 700;
+}
+
+.project {
+	border-radius: 5%;
+    box-shadow: 3px 3px 3px #000000a0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-container {

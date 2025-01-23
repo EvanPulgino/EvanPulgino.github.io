@@ -110,13 +110,13 @@
 			"name": "Tucano on BoardGameArena",
 			"link": "https://en.boardgamearena.com/gamepanel?game=tucano",
 			"repo": "https://github.com/EvanPulgino/tucano",
-			"descripton": "some description"
+			"description": "some description"
 		},
 		{
 			"name": "Don't Go in There on BoardGameArena",
 			"link": "https://en.boardgamearena.com/gamepanel?game=dontgointhere",
 			"repo": "https://github.com/EvanPulgino/dontgointhere",
-			"descripton": "some description"
+			"description": "some description"
 		},
 		{
 			"name": "Austerity",
