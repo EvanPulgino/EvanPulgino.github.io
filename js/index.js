@@ -1,3 +1,11 @@
+function buildPronounsString(pronouns) {
+	let pronounsString = '(';
+	Object.values(pronouns).forEach(pronoun => {
+		pronounsString += pronoun + '/';
+	});
+	return pronounsString.slice(0, -1) + ')';
+}
+
 function getEducationElement(education) {
 	return `<div class="education">
 		<div class="institution">${education.institution}</div>
@@ -28,7 +36,7 @@ function getExperienceElement(experience) {
 function populateContent(content) {
 
 	// Profile
-	document.getElementById('name').textContent = `${content.name.first} ${content.name.last}`;
+	document.getElementById('name').textContent = `${content.name.first} ${content.name.last} ${buildPronounsString(content.pronouns)}`;
 	document.getElementById('title').textContent = `${content.title}`;
 	document.getElementById('location').textContent = `${content.location.city}, ${content.location.state}`;
 	document.getElementById('phone-number').textContent = `${content.contact.phone_number}`;
