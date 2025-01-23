@@ -110,19 +110,19 @@
 			"name": "Tucano on BoardGameArena",
 			"link": "https://en.boardgamearena.com/gamepanel?game=tucano",
 			"repo": "https://github.com/EvanPulgino/tucano",
-			"description": "some description"
+			"description": "Tucano is a set collection card game in which players need to collect groups of fruit cards that have different scoring conditions. BoardGameArena is a website that allows users to play online versions of many tabletop games. Games are built using a PHP/JS/MySql stack."
 		},
 		{
 			"name": "Don't Go in There on BoardGameArena",
 			"link": "https://en.boardgamearena.com/gamepanel?game=dontgointhere",
 			"repo": "https://github.com/EvanPulgino/dontgointhere",
-			"description": "some description"
+			"description": "Don't Go in There is a push-your-luck set collection game in which players navigatge a hanuted house trying to avoid getting cursed. BoardGameArena is a website that allows users to play online versions of many tabletop games. Games are built using a PHP/JS/MySql stack."
 		},
 		{
 			"name": "Austerity",
 			"link": "https://master.d3l56wf7bcn7iz.amplifyapp.com/",
 			"repo": "https://github.com/EvanPulgino/austerity",
-			"description": "some description"
+			"description": "Austerity is a satritcal solitaire game where players play as governments cutting funding for government programs to payback debt. I wanted to learn React and decided to implement this print-and-play game for my own use as a project instead of another Hello World tutorial."
 		}
 	]
 }
