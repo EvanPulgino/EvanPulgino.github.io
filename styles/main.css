@@ -94,7 +94,7 @@ section {
 }
 
 .experience-card:hover {
-	transform: perspective(400px) rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .front {
