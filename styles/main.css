@@ -72,6 +72,10 @@ section {
 	gap: 25px;
 }
 
+.accomplishments {
+	margin: 10px;
+}
+
 .contact-item {
 	display: flex;
 	flex-direction: row;
@@ -108,9 +112,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	gap: 2px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
 	align-items: center;
 	justify-content: center;
 }
@@ -125,9 +126,8 @@ section {
 	border: 2px dashed black;
 	display: flex;
 	flex-direction: column;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	align-items: center;
+	justify-content: center;
 }
 
 .organization {
