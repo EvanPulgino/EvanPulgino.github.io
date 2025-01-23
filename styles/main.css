@@ -11,6 +11,13 @@ section {
 	gap: 10px;
 }
 
+footer {
+	padding-top: 25px;
+	font-style: italic;
+	color: lightgray;
+	text-align: right;
+}
+
 #bio {
 	display: flex;
 	flex-direction: column;
