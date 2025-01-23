@@ -28,6 +28,7 @@ section {
 	display: flex;
 	flex-flow: row wrap;
 	gap: 25px;
+	justify-content: center;
 }
 
 #email-icon {
