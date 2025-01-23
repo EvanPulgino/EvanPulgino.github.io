@@ -18,7 +18,7 @@ function getEducationElement(education) {
 function getExperienceAccomplishmentElements(accomplishments) {
 	let accomplishmentElements = '';
 	Object.values(accomplishments).forEach(accomplishment => {
-		accomplishmentElements += `<div class="accomplishment">${accomplishment}</div>`;
+		accomplishmentElements += `<li class="accomplishment">${accomplishment}</li>`;
 	});
 	return accomplishmentElements;
 }
@@ -33,7 +33,7 @@ function getExperienceElement(experience) {
 				<div class="daterange">${experience.start} - ${experience.end}</div>
 			</div>
 			<div class="back">
-				<div class="accomplishments">${getExperienceAccomplishmentElements(experience.accomplishments)}</div>
+				<ul class="accomplishments">${getExperienceAccomplishmentElements(experience.accomplishments)}</ul>
 			</div>
 		</div>
 	</div>`;
