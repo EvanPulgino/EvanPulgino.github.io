@@ -1,23 +1,17 @@
-const content = `
-	{
-		"content": {
-		"name": {
-			"first": "Evan",
-			"last": "Pulgino"
-		},
-		"location": {
-			"city": "Seattle",
-			"state": "WA"
-		},
-		"contact": {
-			"phone-number": "412-512-4723",
-			"email-address": "evan.pulgino@pm.me"
-		}
-	}
-`;
-
 function populateDataOnLoad() {
-	console.log(content);
+	fetch("./data/content.json")
+		.then((result) => {
+			if (!result.ok) {
+				throw new Error(`HTTP error! Status: ${result.status}`);
+			}
+			return result.json();
+		})
+		.then((content) => {
+			console.log(content);
+		})
+		.catch((error) => {
+			console.error("Unable to fetch data:", error);
+		})
 }
 
 populateDataOnLoad();
