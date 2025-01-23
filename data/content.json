@@ -9,7 +9,8 @@
 	},
 	"contact": {
 		"phone_number": "412-512-4723",
-		"email_address": "evan.pulgino@pm.me"
+		"email_address": "evan.pulgino@pm.me",
+		"github": "EvanPulgino"
 	},
 	"bio": "Some bio text here",
 	"skills": [

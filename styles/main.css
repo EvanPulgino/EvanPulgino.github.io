@@ -1,16 +1,47 @@
-#resume {
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
+* {
+	font-family: "Courier Prime", serif;
 }
 
 section {
 	display: flex;
+	align-items: center;
+}
+
+#email-icon {
+	background-image: url('../assets/icons8-email-30.png');
+	height: 30px;
+	width: 30px;
+}
+
+#github-icon {
+	background-image: url('../assets/icons8-github-30.png');
+	height: 30px;
+	width: 30px;
+}
+
+#phone-icon {
+	background-image: url('../assets/icons8-phone-30.png');
+	height: 30px;
+	width: 30px;
+}
+
+#profile {
+	height: 200px;
 }
 
 #profile-pic {
-	background-image: url('./assets/profile-pic.jpeg');
+	background-image: url('../assets/profile-pic.jpeg');
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
+}
+
+#personal-info {
+	padding-left: 20px;
+}
+
+#resume {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }

@@ -30,12 +30,15 @@ function getSkillElement(skill) {
 }
 
 function populateContent(content) {
-	console.log(content);
+
 	// Profile
 	document.getElementById('name').textContent = `${content.name.first} ${content.name.last}`;
 	document.getElementById('location').textContent = `${content.location.city}, ${content.location.state}`;
 	document.getElementById('phone-number').textContent = `${content.contact.phone_number}`;
 	document.getElementById('email-address').textContent = `${content.contact.email_address}`;
+	document.getElementById('github-link').insertAdjacentHTML('beforeend', `
+		<a href="https://github.com/${content.contact.github}" target="_blank" rel="noreferrer noopener">${content.contact.github}</a>
+	`);
 
 	// Bio
 	document.getElementById('bio').textContent = `${content.bio}`;
