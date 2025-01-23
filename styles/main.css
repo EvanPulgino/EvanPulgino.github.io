@@ -8,6 +8,10 @@ section {
 	justify-content: center;
 }
 
+#contact {
+	padding-top: 10px;
+}
+
 #email-icon {
 	background-image: url('../assets/icons8-email-30.png');
 	height: 30px;
@@ -52,11 +56,12 @@ section {
 #resume {
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
+	gap: 25px;
 }
 
 .contact-item {
 	display: flex;
 	flex-direction: row;
 	line-height: 30px;
+	gap: 5px;
 }
