@@ -1,3 +1,12 @@
+function getEducationElement(education) {
+	return `<div class="education">
+		<div class="institution">${education.institution}</div>
+		<div class="location">${education.location}</div>
+		<div class="graduated">${education.graduated}</div>
+		<div class="degree">${education.degree}</div>
+	</div>`;
+}
+
 function getExperienceAccomplishmentElements(accomplishments) {
 	let accomplishmentElements = '';
 	Object.values(accomplishments).forEach(accomplishment => {
@@ -40,6 +49,11 @@ function populateContent(content) {
 	Object.values(content.experience).forEach(experience => {
 		document.getElementById('experience').insertAdjacentHTML('beforeend', getExperienceElement(experience));
 	});
+
+	// Education
+	Object.values(content.education).forEach(education => {
+		document.getElementById('education').insertAdjacentHTML('beforeend', getEducationElement(education));
+	})
 }
 
 function populateDataOnLoad() {
