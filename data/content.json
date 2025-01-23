@@ -3,6 +3,10 @@
 		"first": "Evan",
 		"last": "Pulgino"
 	},
+	"pronouns": [
+		"He",
+		"Him",
+	],
 	"title": "Software Engineer",
 	"location": {
 		"city": "Seattle",

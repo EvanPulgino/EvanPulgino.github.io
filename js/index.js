@@ -32,7 +32,9 @@ function populateContent(content) {
 	document.getElementById('title').textContent = `${content.title}`;
 	document.getElementById('location').textContent = `${content.location.city}, ${content.location.state}`;
 	document.getElementById('phone-number').textContent = `${content.contact.phone_number}`;
-	document.getElementById('email-address').textContent = `${content.contact.email_address}`;
+	document.getElementById('email-address').insertAdjacentHTML('beforeend', `
+		<a href="mailto:${content.contact.email_address}">${content.contact.email_address}</div>
+	`);
 	document.getElementById('github-link').insertAdjacentHTML('beforeend', `
 		<a href="https://github.com/${content.contact.github}" target="_blank" rel="noreferrer noopener">${content.contact.github}</a>
 	`);
