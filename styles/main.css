@@ -108,6 +108,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	gap: 2px;
+	padding: 2px;
 }
 
 .back {
@@ -118,6 +119,10 @@ section {
 	backface-visibility: hidden;
 	transform: rotateY(180deg);
 	border: 2px dashed black;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	padding: 2px;
 }
 
 .organization {
