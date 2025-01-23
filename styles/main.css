@@ -5,6 +5,12 @@
 section {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+}
+
+#contact-item {
+	display: flex;
+	flex-direction: row;
 }
 
 #email-icon {
@@ -30,7 +36,7 @@ section {
 }
 
 #profile-pic {
-	background-image: url('../assets/profile-pic.jpeg');
+	background-image: url('../assets/profile-pic.jpg');
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
