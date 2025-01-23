@@ -93,11 +93,11 @@ section {
 	gap: 5px;
 }
 
-.experience-card-container {
+.card-container {
 	display: inline-block;
 }
 
-.experience-card {
+.card {
 	position: relative;
 	width: 500px;
 	height: 300px;
@@ -107,7 +107,7 @@ section {
     backface-visibility: hidden;
 }
 
-.experience-card:hover {
+.card:hover {
 	transform: rotateY(180deg);
 }
 

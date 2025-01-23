@@ -24,8 +24,8 @@ function getExperienceAccomplishmentElements(accomplishments) {
 }
 
 function getExperienceElement(experience) {
-	return `<div class="experience-card-container">
-		<div class="experience-card">
+	return `<div class="card-container">
+		<div class="card">
 			<div class="front">
 				<div class="organization">${experience.organization}</div>
 				<div class="title">${experience.title}</div>
