@@ -1,9 +1,9 @@
 function getExperienceAccomplishmentElements(accomplishments) {
-	let accomplishments = '';
+	let accomplishmentElements = '';
 	Object.values(accomplishments).forEach(accomplishment => {
-		accomplishments += `<div class="accomplishment">${accomplishment}</div>`;
+		accomplishmentElements += `<div class="accomplishment">${accomplishment}</div>`;
 	});
-	return accomplishments;
+	return accomplishmentElements;
 }
 
 function getExperienceElement(experience) {
