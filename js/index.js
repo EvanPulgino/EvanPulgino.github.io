@@ -30,7 +30,7 @@ function getExperienceElement(experience) {
 				<div class="organization">${experience.organization}</div>
 				<div class="title">${experience.title}</div>
 				<div class="location">${experience.location}</div>
-				<div class="daterange">${experience.start} - ${experience.end}</div>
+				<div class="daterange">${experience.dates}</div>
 			</div>
 			<div class="back">
 				<ul class="accomplishments">${getExperienceAccomplishmentElements(experience.accomplishments)}</ul>
