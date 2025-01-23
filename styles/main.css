@@ -24,6 +24,12 @@ section {
 	padding-top: 10px;
 }
 
+#experience-container {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 25px;
+}
+
 #email-icon {
 	background-image: url('../assets/icons8-email-30.png');
 	height: 30px;
