@@ -1,5 +1,5 @@
 function populateContent(content) {
-	document.getElementById('name').innerHtml = `${content.name.first} ${content.name.last}`;
+	document.getElementById('name').textContent = `${content.name.first} ${content.name.last}`;
 }
 
 function populateDataOnLoad() {
