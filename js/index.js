@@ -57,7 +57,7 @@ function populateContent(content) {
 	// Skills
 	Object.values(content.skills).forEach(skill => {
 		document.getElementById('skills-container').insertAdjacentHTML('beforeend', `
-			<div class="skill">${skill}</div>
+			<li class="skill">${skill}</li>
 		`);
 	})
 
