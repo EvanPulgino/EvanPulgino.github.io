@@ -64,5 +64,25 @@
 			"degree": "BS in Accounting",
 			"graduated": "2003"
 		}
+	],
+	"projects": [
+		{
+			"name": "Tucano on BoardGameArena",
+			"link": "https://en.boardgamearena.com/gamepanel?game=tucano",
+			"repo": "https://github.com/EvanPulgino/tucano",
+			"descripton": "some description"
+		},
+		{
+			"name": "Don't Go in There on BoardGameArena",
+			"link": "https://en.boardgamearena.com/gamepanel?game=dontgointhere",
+			"repo": "https://github.com/EvanPulgino/dontgointhere",
+			"descripton": "some description"
+		},
+		{
+			"name": "Austerity",
+			"link": "https://master.d3l56wf7bcn7iz.amplifyapp.com/",
+			"repo": "https://github.com/EvanPulgino/austerity",
+			"description": "some description"
+		}
 	]
 }
