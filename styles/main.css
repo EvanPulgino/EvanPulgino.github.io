@@ -173,6 +173,8 @@ section {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    width: 300px;
+    gap: 15px;
 }
 
 .section-container {
